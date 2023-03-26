@@ -1,0 +1,35 @@
+[
+{"type":"header","version":"5.2.0","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"prueba"},
+{"type":"table","name":"equiposdefutbol","database":"prueba","data":
+[
+{"id":"1","nombre":"LosMessilover","entrenador":"PapaDeMessi"},
+{"id":"2","nombre":"Junior","entrenador":"Juan Quintero"},
+{"id":"3","nombre":"Malambo F.C","entrenador":"Luis Perez"},
+{"id":"7","nombre":"LosGoleadores","entrenador":"Luisma"}
+]
+}
+,{"type":"table","name":"partidos","database":"prueba","data":
+[
+{"fecha":"2020-12-22","nombreLocal":"Junior","golesLocal":"2","vs":"VS","golesVisitante":"3","nombreVisitante":"Malambo F.C"},
+{"fecha":"2023-05-10","nombreLocal":"Junior","golesLocal":"10","vs":"VS","golesVisitante":"1","nombreVisitante":"Malambo F.C"},
+{"fecha":"2023-05-11","nombreLocal":"Junior","golesLocal":"2","vs":"VS","golesVisitante":"3","nombreVisitante":"Malambo F.C"},
+{"fecha":"2023-05-12","nombreLocal":"Malambo F.C","golesLocal":"3","vs":"VS","golesVisitante":"1","nombreVisitante":"Junior"},
+{"fecha":"2023-06-12","nombreLocal":"LosGoleadores","golesLocal":"4","vs":"VS","golesVisitante":"1","nombreVisitante":"Junior"}
+]
+}
+,{"type":"table","name":"usuario","database":"prueba","data":
+[
+{"id":"0202","nombre":"Elias"},
+{"id":"1","nombre":"LuisPerez"},
+{"id":"123","nombre":"Luis"},
+{"id":"2","nombre":"Messi"},
+{"id":"3","nombre":"Juan Noruega"}
+]
+}
+,{"type":"table","name":"usuario_admin","database":"prueba","data":
+[
+{"id":"1","nombre":"Luis"}
+]
+}
+]
